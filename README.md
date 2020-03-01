@@ -1,6 +1,6 @@
 # GeometryRun
-游戏名称：	GeometryRun
-团队名称：	闷声发大财
+游戏名称：	GeometryRun  
+团队名称：	闷声发大财  
 团队成员：	王晶、刘科翰、王彦钊、帅晓雨、黄涧水
 
 
