@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{3395fda2-28ed-418e-82ed-0800837b136b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\头文件">
+      <UniqueIdentifier>{7d57852b-d90f-4f74-8689-a09e96160e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\源文件">
+      <UniqueIdentifier>{17445975-7b15-4ddc-a3dd-880c9073c0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{93b7bf8b-1131-4136-982d-db244f6ffe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\头文件">
+      <UniqueIdentifier>{16338b28-d8ec-4bb5-aa7d-fe6ece3cf2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\源文件">
+      <UniqueIdentifier>{0ece47a4-5215-47a5-a735-a186378de360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Supply">
+      <UniqueIdentifier>{06e92fcd-8dce-4f5e-b0e0-97027e416e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Supply\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Supply\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{39b60a35-57fc-4f34-9f5b-8d765f1ce780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\头文件">
+      <UniqueIdentifier>{5823ae47-161c-41a9-88ba-d9a26512890b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\源文件">
+      <UniqueIdentifier>{0ff96571-4b6f-4992-902c-7f5dc329a373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyAndObjUpdate.h">
+      <Filter>Supply\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Supply\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateObjectInMap.h">
+      <Filter>Supply\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Math2D.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level0.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateList.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Engine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMonster.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Choose.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIStatus.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate.h">
+      <Filter>Scenes\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UICalculate.h">
+      <Filter>Sprites\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyAndObjUpdate.c">
+      <Filter>Supply\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.c">
+      <Filter>Supply\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateObjectInMap.c">
+      <Filter>Supply\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="System.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Math2D.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level0.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lose.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.c">
+      <Filter>Engine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMonster.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Choose.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIStatus.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculate.c">
+      <Filter>Scenes\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UICalculate.c">
+      <Filter>Sprites\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GeometryRun.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
